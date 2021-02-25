@@ -1,0 +1,45 @@
+.Navbar {
+  height: 150px;
+  background-color: rgb(31, 85, 233);
+
+  padding: 20px;
+}
+.Navbar-contents {
+  position: relative;
+  width: 400px;
+  background-color: red;
+
+  align-items: center;
+}
+.Navbar-circle {
+  height: 100px;
+  width: 100px;
+  border: solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 0;
+  left: 50px;
+}
+.Navbar-text {
+  color: white;
+  position: absolute;
+
+  top: 17px;
+}
+.Navbar-Text-header {
+  width: 400px;
+  font-size: 30px;
+  letter-spacing: 10px;
+  font-weight: 700;
+  position: absolute;
+  left: -10px;
+  top: 5px;
+  background-color: rgb(31, 85, 233);
+}
+.Navbar-Text-body {
+  width: 400px;
+  background-color: rgb(31, 85, 233);
+  position: absolute;
+  left: -10px;
+  top: 40px;
+}
